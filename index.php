@@ -27,7 +27,7 @@
 <h1>Upload file</h1>
 <p>Upload files compressed with descriptive name and filetype. e.g wcry.bin.gz</p>
 <p>Accepted filetypes: .bin.gz, .gz, .bin, .zip, .7z, .exe (.exe NOT preferred)</p>
-<form action="upload.php" method="post" enctype="multipart/form-data">
+<form action="index.php" method="post" enctype="multipart/form-data">
 <input type="file" value="Filename" name="file">
 <input type="submit" name="submit" value="Upload">
          <ul>
@@ -36,6 +36,8 @@
             <li>File type: <?php echo $_FILES['file']['type'] ?>
             <li>SHA265 Hash: <?php echo $hash ?>
          </ul>
-<a href="./uploaded_samples/">Back to File Index</a>
+<a href="./uploaded_samples/">Back to File Index</a><br>
+<a href="./__sample.index">View File Index</a><br>
+<a href="./delete.php">Delete files</a>
 </form>
 </html>
