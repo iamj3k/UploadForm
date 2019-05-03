@@ -47,7 +47,7 @@ if ($dp) {
 </table>
 <br>
 <br>
-<b>Menu</b>
+<b>Menu</b><br>
 <a href="./index.php">Back to Home</a><br>
 <a href="./__sample.index">View File Index</a><br>
 <a href="./delete.php">Delete files</a>
