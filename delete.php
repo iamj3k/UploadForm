@@ -33,10 +33,23 @@ if ($dp) {
     }
 }
 ?>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./style.css" media="all"/>
+<title>Malware Upload</title>
+</head>
+<body>
+<h1>Upload file</h1>
+<div class="general">
 <table>
 <?php foreach ($files as $file) { echo "<tr><td><a href=\"./delete.php?file=".$file."\">".$file."</a></td></tr>";} ?><br>
 <a href="/index.php">Back to Home</a>
 </table>
-
-
+<a href="./index.php">Back to Home</a><br>
+<a href="./__sample.index">View File Index</a><br>
+<a href="./delete.php">Delete files</a>
+</form>
+</div>
+</body>
+</html>
 
