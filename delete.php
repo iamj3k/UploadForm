@@ -42,11 +42,12 @@ if ($dp) {
 <h1>Upload file</h1>
 <div class="general">
 <table>
+<b>Files</b>
 <?php foreach ($files as $file) { echo "<tr><td><a href=\"./delete.php?file=".$file."\">".$file."</a></td></tr>";} ?><br>
 </table>
 <br>
 <br>
-<p>Menu</p>
+<b>Menu</b>
 <a href="./index.php">Back to Home</a><br>
 <a href="./__sample.index">View File Index</a><br>
 <a href="./delete.php">Delete files</a>
