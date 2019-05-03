@@ -6,9 +6,9 @@
       $file_tmp = $_FILES['file']['tmp_name'];
       $file_type = $_FILES['file']['type'];
       $file_ext=strtolower(end(explode('.',$_FILES['file']['name'])));
-      $expensions= array("bin","gz","bin.gz","exe","zip","7z", "pdf", "doc", "docx", "xlsx", "pptx");
+      $expensions= array("bin","gz","bin.gz","zip","7z", "pdf", "doc", "docx", "xlsx", "pptx");
       if(in_array($file_ext,$expensions)=== false){
-         $errors[]="extension not allowed, please choose a zip, 7z, bin, gz, bin.gz, doc, pdf, xlsx, pptx or exe file extension.";
+         $errors[]="extension not allowed, please choose a zip, 7z, bin, gz, bin.gz, doc, pdf, xlsx, pptx file extension.";
       }
       if(empty($errors)==true) {
          move_uploaded_file($file_tmp,"./uploaded_samples/".$file_name);
@@ -24,8 +24,12 @@
    }
 ?>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="./style.css" media="all"/>
+<title>Malware Upload</title>
+</head>
+<body>
 <h1>Upload file</h1>
-<p>Upload files compressed with descriptive name and filetype. e.g wcry.bin.gz</p>
 <p>Accepted filetypes: .bin.gz, .gz, .bin, .zip, .7z, .exe (.exe NOT preferred)</p>
 <form action="index.php" method="post" enctype="multipart/form-data">
 <input type="file" value="Filename" name="file">
@@ -40,4 +44,7 @@
 <a href="./__sample.index">View File Index</a><br>
 <a href="./delete.php">Delete files</a>
 </form>
+</div>
+</body>
 </html>
+

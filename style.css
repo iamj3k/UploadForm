@@ -1,0 +1,397 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+:root, html, body {
+  font-family: 'Poiret One', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  background: #222;
+  color: white;
+  background-image: url("http://ts3.fi/css/hl4.jpg");
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem auto 2rem;
+  font-weight: normal;
+}
+
+p {
+  margin: 1rem;
+}
+
+.fotogallery{
+    font-family: 'Poiret One', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+	width: 810px;
+    height: auto;
+	margin: 5em auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 15px;
+	border: 1px black solid;
+    float:top;
+	display: none;
+	}
+
+.contact {
+    font-family: 'Poiret One', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+	width: 647px;
+    height: auto;
+	margin: 5em auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 15px;
+	border: 1px black solid;
+    float:top;
+	display: none;
+	}
+
+.upload{
+	text-align: center;
+	width: 500px;
+    height: auto;
+	margin: 5em auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 15px;
+	border: 1px black solid;
+    float:top;
+	display: none;
+	}
+
+.pentesting{
+	text-align: center;
+	width: 500px;
+    height: auto;
+	margin: 5em auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 15px;
+	border: 1px black solid;
+    float:top;
+	display: none;
+	}	
+#pentestingButton{
+	color: white;
+	text-decoration: none;
+}
+.pentesting li{
+	list-style: none;
+	text-align: left;
+	}	
+	
+.pentesting a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	}	
+	
+.pentesting a:hover, a:active{
+	color: #000029;
+	font-weight: bold;
+	color: white;
+	border-bottom: 2px white solid;
+	border-radius: 1em;
+}
+.toolset{
+	text-align: center;
+	width: 500px;
+    height: auto;
+	margin: 5em auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 15px;
+    float:top;
+	border: 1px black solid;
+	display: none;
+	}
+
+.general{
+	text-align: center;
+	width: 500px;
+    height: auto;
+	margin: 5em auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 15px;
+    float:top;
+	border: 1px black solid;	
+	}
+
+.general li{
+
+	list-style: none;
+	text-align: left;
+}
+
+.general ul{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+	
+.rooster{
+        float:top;
+	padding-top: 10%;
+        padding-left:37%;
+	}
+.roosterjoin{
+        float:top;
+	padding-left:40%;
+	padding-top: 15px;
+	}
+
+#allmenu{
+		padding-right: 15%;
+		padding-top: 2.5px;
+		text-align: center;
+		margin:0 auto;
+		display:inline-block;	
+}
+	
+#allmenu a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px white dotted;
+	}
+	
+#allmenu a:hover, a:active{
+	color: #000029;
+	font-weight: bold;
+	color: white;
+	border-bottom: 2px white solid;
+	border-radius: 1em;
+}
+
+#logobar{
+	text-align: center;
+	background-color: black;
+	width: 100%;
+	height: 120px;
+	margin:0 auto;
+	border: 3px #333333 solid;
+	border-radius: 1em;
+	background-image: url("http://ts3.fi/css/vvl19.jpg");
+	}
+
+	
+#logodiv, #logodiv img{
+
+	padding-top: 10px;
+	padding-left: 45px;
+	float:left;
+	margin:0 auto;
+}
+
+.onoffswitch {
+    padding-top: 50px;
+	margin: 0 auto;
+	float:left;
+    position: relative; width: 111px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 12px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 29px; padding: 0; line-height: 29px;
+    font-size: 15px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 18px;
+    background-color: #212121; color: #57A140;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 18px;
+    background-color: #333333; color: #8A2929;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; 
+    width: 17px; 
+    margin: 6px;
+    background: #FFFFFF;
+    border: 2px solid #999999; 
+    border-radius: 12px;
+    //position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    right: 78px;
+    -moz-transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; 
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+
+#ts3{
+	display: none; 
+	clear: both;
+	color: white;
+	width: 290px;
+        height: auto;
+	padding: 25px;
+	background-color: #333333;
+	border-radius: 0px 0px 15px 15px;
+	float:left;
+	width: auto;
+	margin: 0 auto;
+	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+#enter, #exit {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #333333), color-stop(1, #222));
+	background:-moz-linear-gradient(top, #333333 5%, #222 100%);
+	background:-webkit-linear-gradient(top, #333333 5%, #222 100%);
+	background:-o-linear-gradient(top, #333333 5%, #222 100%);
+	background:-ms-linear-gradient(top, #333333 5%, #222 100%);
+	background:linear-gradient(to bottom, #333333 5%, #222 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222',GradientType=0);
+	background-color:#333333;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:15px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Poiret One';
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+#enter:hover, #exit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #222), color-stop(1, #333333));
+	background:-moz-linear-gradient(top, #222 5%, #333333 100%);
+	background:-webkit-linear-gradient(top, #222 5%, #333333 100%);
+	background:-o-linear-gradient(top, #222 5%, #333333 100%);
+	background:-ms-linear-gradient(top, #222 5%, #333333 100%);
+	background:linear-gradient(to bottom, #222 5%, #333333 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#333333',GradientType=0);
+	background-color:#222;
+}
+#enter:active, #exit:active {
+	position:relative;
+	top:1px;
+}
+
+.mainmenu { color: #ccc; 
+	font-size: 16px;   
+	font-family: 'Poiret One', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; 
+	background: #222; 
+	width: 100%; 
+	height: 51px; 
+	border: 1px solid black; 
+	border-bottom: 3px solid black; 
+	text-shadow: 0 1px 0 #000;}
+
+.mainmenu ul {
+	margin: 0;
+	padding: 0; 
+}
+	
+.mainmenu li i { position: absolute; margin-left: -35px; margin-top: 6px; color: #012;  text-shadow: 0 1px 0 #036;}
+.mainmenu li { float: left; display: block; padding: 10px 10px 10px 50px; border-right: 1px solid #012; cursor: pointer; min-width: 100px; max-width: 100px; }
+
+.mainmenu li:hover { background: #012; }
+.mainmenu li:hover i {color: #036; text-shadow: 0 1px 0 #000;}
+.mainmenu li main {font-weight: 700; margin-top: -18px; }
+.mainmenu li desc { position: relative; float: left; font-size: 11px; color: #888; }
+
+.mainmenu li, .mainmenu li i, .mainmenu li main, .mainmenu li desc {
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;}
+
+.mainmenu li:hover main { margin-left: 10px; 
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;}
+.mainmenu li:hover desc { margin-left: 30px; 
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;}
+
+	.slider{
+	width: 640px; /*Same as width of the large image*/
+	position: relative;
+	/*Instead of height we will use padding*/
+	padding-top: 320px; /*That helps bring the labels down*/
+	
+	margin: 100px auto;
+	
+	/*Lets add a shadow*/
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+
+/*Last thing remaining is to add transitions*/
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	/*Lets add some spacing for the thumbnails*/
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	
+	/*Default style = low opacity*/
+	opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+/*Time to add the click effects*/
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+/*Clicking any thumbnail now should change its opacity(style)*/
+/*Time to work on the main images*/
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+/*That hides all main images at a 110% size
+On click the images will be displayed at normal size to complete the effect
+*/
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+/*Clicking on any thumbnail now should activate the image related to it*/
+
+/*We are done :)*/
+
+

@@ -23,16 +23,12 @@ if ($dp) {
                 while ($innerfile = readdir($innerdp)) {
                     if (in_array($innerfile, $skip)) continue;
                     $arr = explode('.', $innerfile);
-                    if (strtolower($arr[count($arr) - 1]) == 'bin') {
                         $files[$file][] = $innerfile;
-                    }
                 }
             }
         } else{
           $arr = explode('.', $file);
-          if (strtolower($arr[count($arr) - 1]) == 'bin') {
             $files[] = $file;
-          }
         }
     }
 }
