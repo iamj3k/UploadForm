@@ -30,6 +30,7 @@
 </head>
 <body>
 <h1>Upload file</h1>
+<div class="general">
 <p>Accepted filetypes: .bin.gz, .gz, .bin, .zip, .7z, .exe (.exe NOT preferred)</p>
 <form action="index.php" method="post" enctype="multipart/form-data">
 <input type="file" value="Filename" name="file">
