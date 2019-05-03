@@ -36,6 +36,6 @@
             <li>File type: <?php echo $_FILES['file']['type'] ?>
             <li>SHA265 Hash: <?php echo $hash ?>
          </ul>
-<a href="http://upload.lab/malware_samples/">Back to File Index</a>
+<a href="./uploaded_samples/">Back to File Index</a>
 </form>
 </html>
