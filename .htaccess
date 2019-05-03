@@ -1,0 +1,7 @@
+Options +Indexes
+IndexOptions FancyIndexing FoldersFirst SuppressIcon
+
+Authtype Basic
+AuthName "WARNING! - MALWARE INSIDE"
+AuthUserFile /var/www/site/.htpasswd
+Require valid-user
