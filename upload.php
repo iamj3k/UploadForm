@@ -8,7 +8,7 @@
       $file_ext=strtolower(end(explode('.',$_FILES['file']['name'])));
       $expensions= array("bin","gz","bin.gz","exe","zip","7z", "pdf", "doc", "docx", "xlsx", "pptx");
       if(in_array($file_ext,$expensions)=== false){
-         $errors[]="extension not allowed, please choose a zip, 7z, bin, gz, bin.gz or exe file extension.";
+         $errors[]="extension not allowed, please choose a zip, 7z, bin, gz, bin.gz, doc, pdf, xlsx, pptx or exe file extension.";
       }
       if(empty($errors)==true) {
          move_uploaded_file($file_tmp,"./uploaded_samples/".$file_name);
@@ -36,6 +36,6 @@
             <li>File type: <?php echo $_FILES['file']['type'] ?>
             <li>SHA265 Hash: <?php echo $hash ?>
          </ul>
-<a href="http://localhost/malware_samples/">Back to File Index</a>
+<a href="http://upload.lab/malware_samples/">Back to File Index</a>
 </form>
 </html>
