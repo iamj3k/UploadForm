@@ -41,7 +41,6 @@
             <li>File type: <?php echo $_FILES['file']['type'] ?>
             <li>SHA265 Hash: <?php echo $hash ?>
          </ul>
-<a href="./uploaded_samples/">Back to File Index</a><br>
 <a href="./__sample.index">View File Index</a><br>
 <a href="./delete.php">Delete files</a>
 </form>
